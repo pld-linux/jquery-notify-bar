@@ -10,7 +10,7 @@ Source0:	http://github.com/dknight/jQuery-Notify-bar/tarball/master?/notify-bar.
 # Source0-md5:	e6929d46a44fcad5559970b5fe6d7e3b
 URL:		http://www.dmitri.me/blog/notify-bar/
 BuildRequires:	js
-BuildRequires:	rpmbuild(macros) > 1.268
+BuildRequires:	rpmbuild(macros) >= 1.268
 BuildRequires:	unzip
 BuildRequires:	yuicompressor
 Requires:	jquery >= 1.3
